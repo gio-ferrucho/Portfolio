@@ -1,0 +1,11 @@
+/*For test.html*/
+/*CSS syntax: selector {property: value}*/
+.one {
+  color:lightblue;
+}
+.two {
+  color:navy
+}
+#title {
+  color:blue
+}

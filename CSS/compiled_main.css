@@ -1,0 +1,30 @@
+nav {
+  background-color: #1B2355; }
+  nav h1, nav a, nav a:visited {
+    color: #E8ECEF; }
+  nav a {
+    text-decoration: none; }
+  nav h1 {
+    display: inline-block;
+    margin: 20px;
+    font-size: 30px; }
+  nav ul {
+    background-color: #1B2355;
+    padding-left: 0;
+    text-align: center;
+    font-size: 0; }
+  nav li {
+    display: inline-block;
+    width: 19vw;
+    font-size: 1rem;
+    margin: 5px auto;
+    border-right: 1px solid #E79294; }
+  nav li:first-of-type {
+    margin-left: 2.5vw; }
+  nav li:last-of-type {
+    border-right: 0; }
+
+article {
+  display: block; }
+
+/*# sourceMappingURL=compiled_main.css.map */
