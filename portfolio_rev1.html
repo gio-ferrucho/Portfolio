@@ -13,6 +13,7 @@
     <!-- My files -->
     <link rel="shortcut icon" href="images/faviconG.ico" type="image/x-icon">
     <link rel="icon" href="images/faviconG.ico" type="image/x-icon">
+    <script type="text/javascript" src="Javascript/app.js"></script>
     <!--[if lte IE 9]>
       <div class="browse-happy">
         <h3>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</h3>
@@ -20,21 +21,33 @@
     <![endif]-->
   </head>
   <body>
-    <script type="text/javascript" src="Javascript/app.js"></script>
+    <nav id="top">
+      <ul>
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#my-work">My Work</a>
+        </li>
+        <li>
+          <a href="#reach-out">Reach Out</a>
+        </li>
+      </ul>
+    </nav>
     <section>
       <header>
         <h1>Gio's Portfolio</h1>
         <p>Here you can learn more about me, my work and my future projects. See the "Reach Out" section at the bottom of the page if you just want to reach out and say hi or ask me any questions!</p>
       </header>
     </section>
-    <main>
+    <main id="about-me">
       <h2>About Me</h2>
       <picture>
         <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/13645106_1051988318219965_7748464617720945401_n.jpg?oh=26ad583200c875d10bfb2595dc4079a3&amp;oe=5A8F5731" style="width: 300px; height: 300px;">
       </picture>
       <p>My name is Giancarlo but I always introduce myself as Gio, for short. It's just easier that way. I'm a Florida boy. Born in Palm Beach, then moved to Broward where I lived until sophomore year of high school. I then moved to Orlando for three years and finished up my high school over there. I moved back to South Florida, Miami to be exact, after high school for college. Spending time with family and close friends is super important and valuable to me. My hobbies include aviation, snorkeling, skiing, off-roading in my Jeep, and anything else that's adventurous and fun!</p>
     </main>
-    <section>
+    <section id="my-work">
       <h2>My Work</h2>
       <div class="#">
         <h3>Portfolio</h3>
@@ -45,7 +58,7 @@
         <h3>Tip Calculator</h3>
         <img src="http://americanpreppersnetwork.com/wp-content/uploads/2012/11/calculator.jpg" alt="calculator" title="Calculator with Pillsbury-looking guy who doesn't know what to do with it." width="250" height="250">
         <p>I created a tip calculator for class. It only requires three values in order to work; the bill total, percent of tip, and the number of people dining/paying. The code is open to the public on GitHub in the repository "Tip_Calc".</p>
-        <a href="https://github.com/gio-ferrucho/Tip_Calc">View the project here!</a>
+        <a href="https://github.com/gio-ferrucho/tipCalc">View the project here!</a>
       </div>
       <div class="#">
         <h3>Resume</h3>
@@ -55,7 +68,7 @@
       </div>
       <p>There will be more projects to come as I continue learning and honing my skills. Check back often for updates! New projects and acheivements will be listed here!</p>
     </section>
-    <section>
+    <section id="reach-out">
       <h2>Reach Out</h2>
       <p>Let's get in touch! Feel free to shoot me a message with any comments, questions, or suggestions you may have.</p>
       <form action="/">
